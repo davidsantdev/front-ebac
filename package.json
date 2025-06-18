@@ -2,8 +2,9 @@
   "name": "exerc_landing",
   "version": "1.0.0",
   "scripts": {
-    "dev": "parcel src/styles/index.html src/styles/main.scss src/scripts/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "dev": "parcel src/styles/index.html",
+  "build": "parcel build src/styles/index.html",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
