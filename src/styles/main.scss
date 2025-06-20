@@ -3,6 +3,9 @@ body{
     margin: 0;
     
 }
+*{
+    font-family: "Space Grotesk", sans-serif;
+}
 
 
 header{
@@ -108,7 +111,7 @@ overflow-x: hidden;
 
         flex-wrap: wrap;
         margin-top: 40px;
-        height: 120vh;
+        height: auto;
 
         width: 80%;
         display: flex;
@@ -116,9 +119,11 @@ overflow-x: hidden;
         align-items: flex-start;
         @media (max-width:1000px){
             width: 90%;
-            gap: 10px;
+            gap: 0px;
             display: block;
-            height: 120vh;
+            
+
+            
         }
         
 
@@ -128,8 +133,9 @@ overflow-x: hidden;
             border-radius: 10px;
             height: 600px;
             text-align: center;
-            padding-top: 80px;
+            margin-top: 80px;
             color: #141210;
+            
             
             
             
@@ -137,10 +143,10 @@ overflow-x: hidden;
             font-weight: 300;
 
             @media (max-width:1000px){
-                font-size:30px;
+                padding-top: 100px;
                 width: 400px;
-                height: 220px;
-                padding-top: 0px;
+                height: 320px;
+                font-size: 20px;
             }
         }
         .umt{
@@ -174,9 +180,10 @@ overflow-x: hidden;
             font-family: 'DM Sans';
             font-weight: 600;
 
-            @media (max-width:794px){
+            @media (max-width:1000px){
                 width: 400px;
                 height: 320px;
+                font-size: 20px;
             }
             
             
@@ -184,7 +191,10 @@ overflow-x: hidden;
         .doist{
             width: 80%;
         }
-        
+        .doitt{
+            font-size: 15px;
+            
+        }
         .tres,.tres2{
             background-color: #dcd1fc;
             width: 300px;
@@ -197,6 +207,7 @@ overflow-x: hidden;
 
             @media (max-width:794px){
                 width: 400px;
+                font-size: 10px;
             }
 
 
@@ -323,6 +334,12 @@ overflow-x: hidden;
         color: #fff;
         background-color: #4F2AC3;
         text-decoration: none;
+
+        @media (width:1000px){
+                padding: 7px;
+                font-size: 10px;
+            }
+        
     }
 }
 #contador{
@@ -424,4 +441,9 @@ footer{
         font-size: 15px;
         
     }
+        }
+        button .button--primary{
+            @media (width:1000px){
+                width: 70px;
+            }
         }

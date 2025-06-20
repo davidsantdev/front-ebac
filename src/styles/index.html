@@ -76,6 +76,8 @@
                     Criando um Portifolio repleto de projetos
                 </p>
                 <img src="./images/illustration-consistent-schedule.webp" alt="">
+                <p class="doitt">Neste curso, você aprenderá passo a passo como criar um portfólio profissional, do zero, mesmo que nunca tenha escrito uma linha de código antes. Vamos te guiar no desenvolvimento de um site pessoal moderno, responsivo e atrativo</p>
+                
             </div>
             <div class="tres" data-aos="fade-up">
                 <p class="trest">
@@ -87,17 +89,17 @@
                 </p>
             </div>
 
-            <div class="um2" data-aos="fade-up">
+            <div class="um2" ">
                 <p class="umt">Crie sites robustos</p>
                 <img src="./images/illustration-grow-followers.webp" alt="">
             </div>
-            <div class="dois2" data-aos="fade-up">
+            <div class="dois2" >
                 <p class="doit">
                     Suporte ao aluno 24H
                 </p>
                 <img src="./images/illustration-ai-content.webp" alt="">
             </div>
-            <div class="tres2" data-aos="fade-up">
+            <div class="tres2" >
                 <p class="trest">
                     Comunidade de alunos ativa
                 </p>
@@ -130,7 +132,7 @@
             
 
             <div class="cert">
-                <p class="titl">Certificações</p>
+                <p class="titl">CERTIFICAÇÕES</p>
                 <p>Certificações Amazon Web Services (AWS)<br>
                 Certificações Six Sigma<br>
                 Certificações Microsoft<br>
@@ -139,7 +141,7 @@
                 Ver todas as certificações</p>
             </div>
             <div class="cert">
-                <p class="titl">Certificações</p>
+                <p class="titl">FERRAMENTAS</p>
             <p>Desenvolvimento Web
 JavaScript<br>
 React JS<br>
@@ -148,7 +150,7 @@ Java<br>
 </p>
             </div>
             <div class="cert">
-                <p class="titl">Certificações</p>
+                <p class="titl">AMAZON</p>
             <p>  Amazon AWS<br>
 AWS Certified Cloud Practitioner<br>
 AZ-900: Microsoft Azure Fundamentals<br>
@@ -157,11 +159,11 @@ Kubernetes<br>
 </p>
             </div>
             <div class="cert">
-                <div class="titl">Certificações</div>
-                <p>Liderança
-Habilidades de gestão
-Gestão de projetos
-Produtividade pessoal
+                <div class="titl">CURSOS</div>
+                <p>Liderança<br>
+Habilidades de gestão<br>
+Gestão de projetos<br>
+Produtividade pessoal<br>
 Inteligência emocional</p>
             </div>
         </div>
@@ -193,7 +195,7 @@ const contaAsHoras = setInterval(function () {
   const minutos = Math.floor((distanciaAteOEvento % horaEmMs) / minutoEmMs);
   const segundos = Math.floor((distanciaAteOEvento % minutoEmMs) / 1000);
 
-  document.getElementById('contador').innerHTML = `${dias}d ${horas}h ${minutos}min ${segundos}s`;
+  document.getElementById('contador').innerHTML = `${dias}d: ${horas}h: ${minutos}min: ${segundos}s`;
 
   if (distanciaAteOEvento < 0) {
     clearInterval(contaAsHoras);
